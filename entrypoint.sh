@@ -1,4 +1,5 @@
 #!/bin/bash
+mv ./test.txt /home/container/test.txt
 cd /home/container
 sleep 1
 # Make internal Docker IP address available to processes.
