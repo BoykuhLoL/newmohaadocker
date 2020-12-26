@@ -22,7 +22,7 @@ RUN   cd /tmp/ \
 
 USER        container
 ENV         HOME /mnt/server
+COPY        ./test.txt /mnt/server/test.txt
 WORKDIR     /mnt/server
 
 COPY  ./entrypoint.sh /entrypoint.sh
-COPY ./test.txt /test.txt
