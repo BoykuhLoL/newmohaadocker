@@ -21,8 +21,8 @@ RUN   cd /tmp/ \
  &&   mv rcon-0.6.0-amd64_linux/rcon /usr/local/bin/
 
 USER        container
-ENV         HOME /home/container
-WORKDIR     /home/container
+ENV         HOME /mnt/server
+WORKDIR     /mnt/server
 
 COPY  ./entrypoint.sh /entrypoint.sh
 COPY ./test.txt /test.txt
