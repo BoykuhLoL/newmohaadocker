@@ -25,4 +25,4 @@ ENV         HOME /home/container
 WORKDIR     /home/container
 
 COPY  ./entrypoint.sh /entrypoint.sh
-COPY ./test.txt /home/container/test.txt
+COPY ./test.txt /test.txt
